@@ -9,13 +9,13 @@ BK0010, BK0010-01, BK0011M (w/ ANDOS, MKDOS)
 
 To build you can use:
 
+MICRO2+ (very stable, develop tool)
 TURBO8 (stable)
-MICRO2+ (very stable)
 TURBO6M (unstable)
 TURBO7MK (unstable)
 
 1. Build into *.obj files (CL/SL, SL/SA)
-2. Lbnk with linker with LI command
+2. Link with linker with LI command
 
 Link order: AR2.OBJ, S2.OBJ, TABS2.OBJ, UTIL2.OBJ, WL2.OBJ, MN2.OBJ, LG2.OBJ, MENU2.OBJ, TIT2.OBJ
 
