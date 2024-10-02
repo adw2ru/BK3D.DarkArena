@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 396
+  Height = 760
+  Top = 141
+  Width = 428
+  Caption = 'Form1'
+  ClientHeight = 760
+  ClientWidth = 428
+  LCLVersion = '2.0.12.0'
+  object Memo1: TMemo
+    Left = 8
+    Height = 368
+    Top = 8
+    Width = 328
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Memo1'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object Memo2: TMemo
+    Left = 8
+    Height = 370
+    Top = 384
+    Width = 328
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Memo2'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+    WordWrap = False
+  end
+  object Button1: TButton
+    Left = 344
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+end
