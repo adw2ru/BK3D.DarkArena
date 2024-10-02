@@ -1,4 +1,4 @@
-Start splash screen source code.
+# Start splash screen source code
 
 GAME is compressed by n2dpack binary from compiled GAME.SRC folder
 TITLE is compressed splash picture.
